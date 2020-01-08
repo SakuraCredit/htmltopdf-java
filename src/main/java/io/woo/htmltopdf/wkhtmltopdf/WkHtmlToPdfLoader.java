@@ -49,6 +49,6 @@ class WkHtmlToPdfLoader {
                 + (Platform.is64Bit() ? "" : ".32")
                 + (Platform.isWindows() ? ".dll"
                     : Platform.isMac() ? ".dylib"
-                        : ".so");
+                        : ".so.0.12.5");
     }
 }
